@@ -4,7 +4,7 @@
     "description": "",
     "author": "Yuri",
     "license": "MIT",
-    "main": "index.js",
+    "main": "dist/index.js",
     "scripts": {
         "build": "rm -rf dist && tsc -p tsconfig.build.json",
         "format": "prettier --write \"**/*.ts\"",
