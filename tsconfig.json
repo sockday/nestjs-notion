@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "declaration": true,
+        "strict": true,
+        "removeComments": false,
+        "noLib": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "ES2021",
+        "sourceMap": false,
+        "skipLibCheck": true,
+        "useUnknownInCatchVariables": false
+    }
+}
