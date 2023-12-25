@@ -1,7 +1,13 @@
 {
     "name": "nestjs-notion-client",
     "version": "0.0.1",
-    "description": "",
+    "description": "A NestJS module for seamless integration with Notion API, enabling CRUD operations and data transformation with Notion databases.",
+    "keywords": [
+        "nestjs",
+        "notion",
+        "notion-api",
+        "notion-client"
+    ],
     "author": "Yuri",
     "license": "MIT",
     "main": "dist/index.js",
@@ -10,7 +16,8 @@
         "format": "prettier --write \"**/*.ts\"",
         "lint": "eslint 'lib/**/*.ts' --fix",
         "test:e2e": "jest --config ./tests/jest-e2e.json --runInBand",
-        "test:e2e:dev": "jest --config ./tests/jest-e2e.json --runInBand --watchAll"
+        "test:e2e:dev": "jest --config ./tests/jest-e2e.json --runInBand --watchAll",
+        "release": "release-it"
     },
     "devDependencies": {
         "@nestjs/common": "10.2.10",

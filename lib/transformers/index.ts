@@ -1,10 +1,12 @@
 import {
     CheckboxTransformer,
+    FilesTransformer,
     NumberTransformer,
     RelationTransformer,
     RichTextTransformer,
     SelectTransformer,
     TitleTransformer,
+    UrlTransformer,
 } from "./types";
 
 import type { PropertyTypes } from "../interfaces/properties.interface";
@@ -20,6 +22,8 @@ export const transformers: Partial<Record<PropertyTypes, Type<Transformer<any, a
     select: SelectTransformer,
     checkbox: CheckboxTransformer,
     relation: RelationTransformer,
+    files: FilesTransformer,
+    url: UrlTransformer,
 };
 
 export {
@@ -29,4 +33,6 @@ export {
     SelectTransformer,
     CheckboxTransformer,
     RelationTransformer,
+    FilesTransformer,
+    UrlTransformer,
 };
