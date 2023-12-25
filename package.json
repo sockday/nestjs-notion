@@ -1,6 +1,6 @@
 {
     "name": "nestjs-notion-client",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "A NestJS module for seamless integration with Notion API, enabling CRUD operations and data transformation with Notion databases.",
     "keywords": [
         "nestjs",
